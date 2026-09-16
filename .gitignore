@@ -217,3 +217,8 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 .idea
+*-backups/
+*.lck
+fp-info-cache
+_autosave-*
+*.kicad_prl
