@@ -1,0 +1,84 @@
+(footprint "Untitled"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.5 -7.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "345f1583-8b78-4824-bb9a-48f037f5a360")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "NFC_Antenna_36x44.8"
+		(at -4 -5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2f16c692-0ab0-4986-b26b-7f87cb5f7409")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4dfff89b-42a7-4bb6-b0ab-c261edbeac9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8c3d580-c607-49f6-a59a-e5c5cebf6e5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start 0 0)
+		(end 36 44.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "ab771fd6-2147-482c-b897-1c2cf98e7e34")
+	)
+	(pad "1" smd roundrect
+		(at 18 -1.5)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "057570b9-97b6-44c0-8498-7d5000d4d229")
+	)
+	(pad "2" smd roundrect
+		(at 20 -1.5)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "efdfb32c-aa83-4f1c-8bd9-b85400f3fa24")
+	)
+	(embedded_fonts no)
+)
